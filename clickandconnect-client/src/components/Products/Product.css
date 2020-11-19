@@ -1,0 +1,39 @@
+.product {
+    padding:2em 1em;
+    text-align:left;
+
+}
+
+.product_item {
+    text-decoration:none;
+    
+}
+
+.product_item > img {
+    object-fit:cover;
+    width:18em;
+    height:18em;
+
+}
+
+.product_item  > p {
+    font-size:1em;
+    font-weight:600;
+    color:black;
+    padding-top:0.5em;
+    padding-bottom:0.2em;
+}
+
+.product_item  > p:hover {
+    font-size:1em;
+    font-weight:600;
+    color:#00b1a2;
+    padding-top:0.5em;
+    padding-bottom:0.2em;
+}
+
+.product_item > span {
+    font-size:0.9em;
+    font-weight:600;
+    color:black;
+}

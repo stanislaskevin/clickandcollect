@@ -1,0 +1,46 @@
+.home_product {
+    margin:0 auto;
+    text-align:center;
+    padding: 5em 1em 6em;
+}
+
+.home_product > h2 {
+    font-size:1.5em;
+    padding:2em 0;
+    text-transform: uppercase;
+}
+
+.home_product_contain {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.home_section_img {
+    display:flex;
+    margin:0 auto;
+        
+}
+
+.home_section_img > img {
+    object-fit:contain;
+    width:33%;
+    height:100%;
+    margin: 0;
+    
+}
+
+
+@media (max-width:800px) {
+    .home_section_img {
+        display:flex;
+        flex-wrap:wrap;
+        
+    }
+    
+    .home_section_img > img {
+        object-fit:contain;
+        width:100%;
+        height:auto;
+        margin-top:-0.5em;
+    }
+}

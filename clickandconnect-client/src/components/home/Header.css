@@ -1,0 +1,63 @@
+.header {
+    /**background-image: url("../../assets/man-with-camera-stood-on-a-dock.jpg");**/
+    background:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:2em 0 4em;
+}
+
+.header > h1 {
+    color:#00b1a2;
+    font-size:2.5em;
+    text-transform: uppercase;
+    font-weight:900;
+    padding-top:2em;
+}
+
+.header > p {
+    color:#fff;
+    font-weight:600;
+    font-size:1em;
+    padding-bottom:2em;
+}
+
+.header_body {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding:4em 0 2em;
+}
+
+.header_body_item {
+    color:#ffffff;
+    margin:0 1em;
+    width:15em;
+    padding:1em;
+}
+
+.header_icon {
+    
+}
+
+.header_body_item > p {
+    font-size:0.7em;
+    font-weight:600;
+    line-height:1.7;
+    
+}
+
+.header_button {
+    padding:4em 0;
+    margin-top:2em;
+}
+.header_button > button {
+    border:1px solid transparent;
+    padding:1em;
+    border-radius:0.4em;
+    background:#00b1a2;;
+    font-size:0.8em;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#ffffff;
+}
